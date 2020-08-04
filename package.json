@@ -57,11 +57,6 @@
     "tsconfig-paths": "^3.8.0",
     "typescript": "3.2.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*": [
       "pretty-quick --staged"

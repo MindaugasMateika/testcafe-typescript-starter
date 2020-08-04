@@ -17,7 +17,7 @@ class HomePage {
     const getPageUrl = ClientFunction(() => window.location.href);
     await t
       .expect(await getPageUrl())
-      .contains('secure', 'check current url contains secure');
+      .contains('sec', 'check current url contains secure');
   }
 }
 
