@@ -60,7 +60,7 @@ pipeline {
 
     stage("Publish NUnit Test Report") {
     steps {
-    junit 'build/reports/**/*.xml'
+    junit allowEmptyResults: true, testResults: '**/**/*.xml'
     }
     }
  }
