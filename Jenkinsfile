@@ -60,7 +60,7 @@ pipeline {
 
     stage("Publish NUnit Test Report") {
     steps {
-    nunit testResultsPattern: 'TestResult.xml'
+    nunit testResultsPattern: 'report.xml'
     }
     }
  }
