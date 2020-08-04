@@ -12,7 +12,7 @@ class LoginPage {
     this.usernameField = Selector('*[id="username"]');
     this.passwordField = Selector('*[id="password"]');
     this.loginBtn = Selector('*[id="login"] button');
-    this.loginPageHeader = Selector('div[class="example"] h2');
+    this.loginPageHeader = Selector('bbd');
   }
 
   public async launchLoginUrl() {
