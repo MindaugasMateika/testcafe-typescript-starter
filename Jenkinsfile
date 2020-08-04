@@ -33,7 +33,6 @@ pipeline {
    steps {
      sh 'npm i --verbose'
      sh 'npm run clean' 
-    sh 'npm run lint' 
    }
   }
 
