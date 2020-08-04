@@ -23,7 +23,7 @@ pipeline {
       [name: '*/master']
      ],
      userRemoteConfigs: [
-      [url: 'https://github.com/abhinaba-ghosh/testcafe-typescript-starter.git']
+      [url: 'https://github.com/MindaugasMateika/testcafe-typescript-starter.git']
      ]
     ])
    }
