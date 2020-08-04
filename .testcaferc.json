@@ -6,6 +6,7 @@
       "name": "spec"
     },
     { "name": "allure" },
+    { "name": "nunit", "output": "reports/xml/TestReport.xml" },
     {
       "name": "xunit",
       "output": "reports/xml/report.xml"

@@ -46,6 +46,7 @@
     "husky": "3.0.0",
     "lint-staged": "9.2.0",
     "log4js": "5.2.2",
+    "nunit": "^0.2.1",
     "prettier": "2.0.5",
     "pretty-quick": "1.11.1",
     "shelljs": "0.8.1",
