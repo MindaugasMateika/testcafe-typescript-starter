@@ -63,12 +63,6 @@ pipeline {
     nunit testResultsPattern: 'TestResult.xml'
     }
     }
-
-        post {
-            always {
-                junit 'build/reports/xml/report.xml'
-            }
-        }
  }
 }
 
